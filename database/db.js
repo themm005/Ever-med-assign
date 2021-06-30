@@ -8,7 +8,7 @@ const connectDb = async () => {
       useUnifiedTopology:true
     })
 
-    console.log("mongo is connected !")
+    console.log("mongo is connected go !")
   } catch (error) {
     console.error("mongo is fail connected!");
     process.exit(1)
